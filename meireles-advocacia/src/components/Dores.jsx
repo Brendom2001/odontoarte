@@ -55,7 +55,7 @@ export default function Dores() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {dores.map((item, i) => (
-            <RevealOnScroll key={i} delay={0.1 + i * 0.07}>
+            <RevealOnScroll key={i} delay={0.05 + i * 0.05}>
               <motion.div
                 className="p-7 group relative overflow-hidden"
                 style={{ border: '1px solid var(--gold-10)', background: 'var(--bg-card)' }}

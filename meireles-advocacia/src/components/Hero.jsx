@@ -100,7 +100,7 @@ export default function Hero() {
               className="inline-block mr-[0.25em]"
               initial={{ opacity: 0, y: 40, filter: 'blur(8px)' }}
               animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-              transition={{ delay: 0.3 + i * 0.12, duration: 0.6, ease: easing }}
+              transition={{ delay: 0.2 + i * 0.09, duration: 0.55, ease: easing }}
             >
               {word}
             </motion.span>
@@ -111,7 +111,7 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 1.6, ease: easing }}
+          transition={{ duration: 0.6, delay: 1.25, ease: easing }}
           className="font-body text-base md:text-lg leading-relaxed max-w-xl mb-10"
           style={{ color: 'var(--text-secondary)' }}
         >
@@ -123,7 +123,7 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 1.85, ease: easing }}
+          transition={{ duration: 0.6, delay: 1.45, ease: easing }}
           className="flex flex-wrap items-center gap-4 mb-12"
         >
           <MagneticButton
@@ -151,7 +151,7 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 2.1, ease: easing }}
+          transition={{ duration: 0.55, delay: 1.65, ease: easing }}
           className="flex flex-wrap gap-5"
         >
           {['Sem custo inicial', 'Atendimento online', '+1.200 casos'].map(badge => (

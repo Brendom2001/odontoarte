@@ -11,7 +11,7 @@ export default function RevealOnScroll({ children, delay = 0, className = '', y 
       className={className}
       initial={{ opacity: 0, y }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.65, ease: [0.76, 0, 0.24, 1], delay }}
+      transition={{ duration: 0.55, ease: [0.76, 0, 0.24, 1], delay }}
     >
       {children}
     </motion.div>
